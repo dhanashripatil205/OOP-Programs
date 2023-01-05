@@ -12,10 +12,6 @@ namespace InventoryManagementDemo
             ReadData obj = new ReadData();
             var Info = obj.Read(path);
 
-            //Console.WriteLine(Info.typesOfRice.name);
-            //Console.WriteLine(Info.typesOfRice.weight);
-            //Console.WriteLine(Info.typesOfRice.price);
-
             //Storing the multiple values of Array in List.
             Console.WriteLine("--------------------");
 
