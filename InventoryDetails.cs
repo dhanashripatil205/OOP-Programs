@@ -8,7 +8,6 @@ namespace InventoryManagementDeno
 {
     public class InventoryDetails
     {
-       // public TypesOfRice typesOfRice;
         public List<TypesOfRice> typesOfRice;
         public List<TypesOfPuslses> typesOfPulses;
         public List<TypesOfWheat> typesOfWheat;
