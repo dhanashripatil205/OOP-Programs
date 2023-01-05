@@ -1,9 +1,4 @@
 {
-  /*"TypesOfRice": {
-    "name": "Rice",
-    "weight": 12,
-    "price": 240,
-  } */
   "TypesOfRice": [
     {
       "name": "Rice1",
