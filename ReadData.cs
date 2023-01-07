@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace InventoryManagementDeno
+namespace StockManagement
 {
     public class ReadData
     {
-        public InventoryDetails Read(string path)
+
+        public StockModel Read(string path)
         {
             using (StreamReader file = new StreamReader(path))
             {
@@ -17,7 +18,7 @@ namespace InventoryManagementDeno
                 try
                 {
                     string json = file.ReadToEnd();
-                    return JsonConvert.DeserializeObject<InventoryDetails>(json);
+                    return JsonConvert.DeserializeObject<StockModel>(json);
 
                 }
                 catch (Exception e)
@@ -26,5 +27,7 @@ namespace InventoryManagementDeno
                 }
             }
         }
+
+
     }
 }
